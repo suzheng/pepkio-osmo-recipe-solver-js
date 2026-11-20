@@ -2,6 +2,7 @@
   "name": "pepkio-osmo-recipe-solver",
   "version": "0.1.0",
   "description": "Multi-solute osmolarity calculator with real osmotic coefficients, preset buffers, tonicity classification, and bidirectional recipe adjustment via the Pepkio Tools REST API.",
+  "readme": "README_NPM.md",
   "type": "module",
   "engines": {
     "node": ">=18"
@@ -18,9 +19,7 @@
     "pepkio-osmo-recipe-solver": "dist/cli.js"
   },
   "files": [
-    "dist",
-    "README.md",
-    "LICENSE"
+    "dist"
   ],
   "scripts": {
     "build": "tsup",
@@ -30,20 +29,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suzheng/pepkio-osmo-recipe-solver-js.git"
+    "url": "git+https://github.com/pepkio/pepkio-osmo-recipe-solver-js.git"
   },
   "bugs": {
-    "url": "https://github.com/suzheng/pepkio-osmo-recipe-solver-js/issues"
+    "url": "https://github.com/pepkio/pepkio-osmo-recipe-solver-js/issues"
   },
   "homepage": "https://www.pepkio.com/tools/osmo-recipe-solver",
   "keywords": [
     "osmo-recipe-solver",
     "osmolarity",
     "osmolality",
-    "buffer",
     "tonicity",
+    "buffer-preparation",
     "cell-culture",
     "electrophysiology",
+    "ionic-strength",
+    "laboratory-calculator",
+    "molecular-biology",
+    "bioinformatics",
     "pepkio",
     "typescript",
     "node",
